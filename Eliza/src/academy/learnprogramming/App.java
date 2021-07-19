@@ -12,7 +12,7 @@ public class App {
 
         while (!userInput.equalsIgnoreCase("quit")) {
             userInput = scanner.nextLine();
-            String response = Doctor.response(UserInput);
+            String response = Doctor.response(userInput);
             System.out.println(response); 
         }
 
